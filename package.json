@@ -1,0 +1,21 @@
+{
+	"name": "@stockly/entry-tests-emnaouerghi",
+	"version": "1.0.0",
+	"description": "Stockly Entry Tests for emnaouerghi",
+	"scripts": {
+		"hack": "jest --config ./jest.config.js",
+		"start": "jest --config ./jest.config.js \\\\d-[A-Za-z0-9_.-]*\\\\.validation\\\\.js",
+		"validate": "jest --config ./jest.config.js"
+	},
+	"keywords": [
+		"stockly",
+		"entry-tests",
+		"$emnaouerghi"
+	],
+	"author": "Stockly <contact@stockly.ai> (https://stockly.ai)",
+	"private": true,
+	"license": "ISC",
+	"dependencies": {
+		"jest": "^29.2.1"
+	}
+}
